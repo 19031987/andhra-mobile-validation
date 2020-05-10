@@ -1,0 +1,10 @@
+version: '2'
+services:
+    cafvalidity_v2-elasticsearch:
+        image: elasticsearch:2.4.1
+        # volumes:
+        #     - ~/volumes/jhipster/cafvalidity_v2/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9201:9201
+            - 9301:9301
+     cluster.name:raghu-cluster
